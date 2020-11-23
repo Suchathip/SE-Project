@@ -28,7 +28,185 @@ public class MovieDetailController {
         modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
         modelAndView.addObject("creator", " Benning2");
         modelAndView.addObject("actor", " Benning2, Muse2");
-        return "Detail"; 
+        return "Detail";
     }
 
+    @RequestMapping(value = "/movie/3", method = RequestMethod.GET)
+    public String getMovie3(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Newness");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+    @RequestMapping(value = "/movie/4", method = RequestMethod.GET)
+    public String getMovie4(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Titanic");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/5", method = RequestMethod.GET)
+    public String getMovie5(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Twilight");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/6", method = RequestMethod.GET)
+    public String getMovie6(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Train to Pusan");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/7", method = RequestMethod.GET)
+    public String getMovie7(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "John Wick");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/8", method = RequestMethod.GET)
+    public String getMovie8(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Thor");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/9", method = RequestMethod.GET)
+    public String getMovie9(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Avengers");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/10", method = RequestMethod.GET)
+    public String getMovie10(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "The Fast of the Furious 8");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/11", method = RequestMethod.GET)
+    public String getMovie11(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "ABO Minable");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/12", method = RequestMethod.GET)
+    public String getMovie12(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Pets 2");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/13", method = RequestMethod.GET)
+    public String getMovie13(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Rise Guardian");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/14", method = RequestMethod.GET)
+    public String getMovie14(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Boss Baby");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/15", method = RequestMethod.GET)
+    public String getMovie15(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Finding Nemo");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/16", method = RequestMethod.GET)
+    public String getMovie16(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Harry Potter");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/17", method = RequestMethod.GET)
+    public String getMovie17(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Beauty and the Beast");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/18", method = RequestMethod.GET)
+    public String getMovie18(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Avatar");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/19", method = RequestMethod.GET)
+    public String getMovie19(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Maleficent");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
+
+    @RequestMapping(value = "/movie/20", method = RequestMethod.GET)
+    public String getMovie20(ModelAndView modelAndView, Model model) {
+        modelAndView.addObject("title", "Star War : The rise of skywalker");
+        modelAndView.addObject("description", "“มาร์ติน” และ “แกบี้” หนุ่มสาวโปรไฟล์ดี ที่ต่างคนต่างโสด นัดเจอกันผ่านแอพหาคู่ แล้วพบว่าพวกเขาเข้ากันได้ดี จึงพยายามสานความสัมพันธ์เป็นคู่จริง มากกว่าคู่รักชั่วคราว ทั้งคู่ตัดสินใจย้ายเข้ามาอยู่บ้านเดียวกัน ใช้ชีวิตเป็นคู่รัก แต่แล้วความเบื่อหน่ายก็เริ่มคืบคลานเข้ามา ทำให้ความสัมพันธ์ครั้งนี้ไม่ง่ายอย่างที่คิด");
+        modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
+        modelAndView.addObject("creator", " Benning2");
+        modelAndView.addObject("actor", " Benning2, Muse2");
+        return "Detail";
+    }
 }

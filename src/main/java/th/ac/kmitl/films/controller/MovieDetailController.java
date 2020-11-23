@@ -28,7 +28,7 @@ public class MovieDetailController {
         modelAndView.addObject("pic", "https://i.pinimg.com/originals/5f/00/0e/5f000e05a132bf3a7466f48b3cfa519d.jpg");
         modelAndView.addObject("creator", " Benning2");
         modelAndView.addObject("actor", " Benning2, Muse2");
-        return "Detail";
+        return "Detail"; 
     }
 
 }

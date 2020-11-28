@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        html{
+            overflow: hidden;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            background-color: black;
+        }
+        img{
+            float: left;
+            width: 100%;
+            height: 403px;
+            object-fit: cover;
+        }
+        .centered {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -380px;
+            margin-left: -550px;
+        }
+        h3 {
+            font-weight: 100;
+            font-family: 'Kanit', sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<div class="container centered">
+    <div class="row">
+        <div class="col-lg-8">
+            <img th:src="${modelAndView.model.pic}" alt="test">
+        </div>
+        <div class="col-lg-4">
+            <div class="row">
+                <h1 class="col-12" style="text-align: center; padding-bottom: 65px" th:text="${modelAndView.model.title}"></h1>
+            </div>
+            <div class="row">
+                <h3>ผู้สร้าง : </h3>
+                <h3 th:text="${modelAndView.model.creator}">asd th:text="${modelAndView.model.creator}"</h3>
+            </div>
+            <div class="row">
+                <h3>นักแสดง : </h3>
+                <h3 th:text="${modelAndView.model.actor}"></h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h5 class="col-lg-12" style="padding: 50px; font-family: 'Kanit', sans-serif; line-height: 1.6;" th:text="${modelAndView.model.description}"></h5>
+    </div>
+</div>
+
+<!--    <div class="row">-->
+<!--        <h1 class="col-4" >ชื่อเรื่อง</h1>-->
+<!--        <div class="col-4">คำอธิบาย</div>-->
+<!--        <div class="col-4">นักแสดง</div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div th:text="${modelAndView.model.var1}"></div>-->
+<!--<h1 style="font-size: 100px; color: white" th:text="${modelAndView.model.var1}"></h1>-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

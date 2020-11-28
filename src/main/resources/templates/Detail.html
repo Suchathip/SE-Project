@@ -7,8 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <style>
-        html{
-            overflow: hidden;
+        html {
+            height: 100%;
+            margin: auto;
+            width: 960px;
         }
         body {
             margin: 0;
@@ -17,18 +19,11 @@
             color: white;
             background-color: black;
         }
-        img{
+        .imgset{
             float: left;
             width: 100%;
             height: 403px;
             object-fit: cover;
-        }
-        .centered {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            margin-top: -380px;
-            margin-left: -550px;
         }
         h3 {
             font-weight: 100;
@@ -37,10 +32,21 @@
         }
     </style>
 </head>
-<div class="container centered">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <a th:href="@{/home}"><img  src= "https://www.flaticon.com/svg/static/icons/svg/3079/3079189.svg" width="55" align="left" hspace="20" vspace="20"></a>
+        </div>
+        <div class="col-lg-4" style="text-align: center;">
+            <a href="http://localhost:8070/login"><img  src = "https://www.flaticon.com/svg/static/icons/svg/891/891401.svg" width="55" align="center" hspace="20" vspace="20"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="http://localhost:8070/home"><img  src= https://www.flaticon.com/svg/static/icons/svg/1936/1936549.svg  width="55" align="right" hspace="20" vspace="20"></a>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-8">
-            <img th:src="${modelAndView.model.pic}" alt="test">
+            <img class="imgset" th:src="${modelAndView.model.pic}" alt="test">
         </div>
         <div class="col-lg-4">
             <div class="row">
@@ -68,9 +74,5 @@
 <!--    </div>-->
 <!--</div>-->
 <!--<div th:text="${modelAndView.model.var1}"></div>-->
-<!--<h1 style="font-size: 100px; color: white" th:text="${modelAndView.model.var1}"></h1>-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
